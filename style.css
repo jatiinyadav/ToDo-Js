@@ -24,11 +24,10 @@ body {
 
 #container {
   width: 400px;
-  height: auto;
+  height: 580px;
   margin: 0 auto;
   text-align: center;
   background: whitesmoke;
-  height: 580px;
   overflow-y: auto;
   color: black;
   border: 10px solid pink;
