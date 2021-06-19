@@ -1,0 +1,154 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #d87b9f, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  font-family: "open sans";
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@font-face {
+  font-family: "open sans";
+  src: url(sans.ttf);
+}
+
+#container {
+  width: 400px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  background: whitesmoke;
+  height: 580px;
+  overflow-y: auto;
+  color: black;
+  border: 10px solid pink;
+  border-radius: 10px;
+}
+
+#container h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+#container ul {
+  margin-top: 50px;
+  padding-left: 0;
+}
+
+#container ul li {
+  list-style: none;
+  border: 2px solid #0f9d58;
+  width: 80%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  height: 40px;
+  margin: 5px auto;
+  text-align: left;
+}
+
+#container ul li label {
+  margin: 0 auto;
+  vertical-align: middle;
+  height: 100%;
+  line-height: 40px;
+  font-size: 18px;
+}
+
+#container ul li #check {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  -webkit-appearance: none;
+  border: 2px solid #f4b400;
+  position: relative;
+  outline: 0;
+}
+
+#container ul li #check:checked::after {
+  content: "\2714";
+  font-size: 20px;
+  position: absolute;
+  top: 0%;
+  left: 7px;
+  color: black;
+}
+
+#container ul li input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+#container .controls {
+  width: 60%;
+  margin: auto;
+}
+
+#container .controls {
+  width: 60%;
+  margin: auto;
+}
+
+#container .controls #input {
+  width: 100%;
+  height: 30px;
+  font-size: 20px;
+  padding-left: 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border: 2px solid pink;
+  border-radius: 10px;
+}
+
+#container .controls #input:focus {
+  outline: 0;
+}
+
+#container .controls button {
+  width: 100%;
+  background: wheat;
+  border: none;
+  height: 30px;
+  margin-top: 2px;
+  cursor: pointer;
+  color: white;
+}
+
+#container .controls button:focus {
+  outline: 0;
+}
+
+#container .controls button:hover {
+  transform: scale(1.05);
+}
+
+#container .controls #add {
+  background-color: #4285f4;
+  border-radius: 10px;
+}
+
+#container .controls #remove {
+  background-color: #db4437;
+  border-radius: 10px;
+}
+
+#container .mycheck {
+  opacity: 1;
+  border-radius: 10px;
+}
+
+.visual {
+  opacity: 1 !important;
+  border-radius: 10px;
+}
