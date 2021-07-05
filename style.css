@@ -24,8 +24,8 @@ body {
 
 #container {
   width: 400px;
-  height: 580px;
-  margin: 0 auto;
+  height: 600px;
+  margin: 2rem auto;
   text-align: center;
   background: whitesmoke;
   overflow-y: auto;
@@ -150,4 +150,10 @@ body {
 .visual {
   opacity: 1 !important;
   border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px){
+  #container{
+    width: auto;
+  }
 }
