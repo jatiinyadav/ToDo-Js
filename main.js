@@ -16,7 +16,12 @@ function addItem() {
   var textNode = document.createTextNode(item);
 
   if (item === "") {
-    return false;
+    // return false;
+    // var falseReturn = document.createElement("p");
+    // var returnValue = document.createTextNode("Empty Todo cannot be added");
+    // falseReturn.appendChild(returnValue);
+    // document.querySelector("p").appendChild(falseReturn);
+    alert("Empty Todo cannot be added");
   } else {
     //create li
     li = document.createElement("li");
@@ -30,7 +35,7 @@ function addItem() {
     var label = document.createElement("label");
     label.setAttribute("for", "item");
 
-    //ad elements on web page
+    //add elements on web page
     ul.appendChild(label);
     li.appendChild(checkBox);
     label.appendChild(textNode);
