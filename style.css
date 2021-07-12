@@ -23,15 +23,26 @@ body {
 }
 
 #container {
-  width: 400px;
+  width: 40%;
   height: 600px;
-  margin: 2rem auto;
+  margin: 1.5rem auto;
   text-align: center;
   background: whitesmoke;
-  overflow-y: auto;
+  /* overflow-y: auto; */
   color: black;
   border: 10px solid pink;
   border-radius: 10px;
+}
+
+.github-icon {
+  padding: 3px 3px;
+  float: right;
+  padding: 0.2rem;
+  margin-top: 10px;
+  margin-right: 10px;
+  background: wheat;
+  border-radius: 9px;
+  cursor: pointer;
 }
 
 #container h1 {
@@ -152,8 +163,11 @@ body {
   border-radius: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 601px) {
   #container {
     width: auto;
   }
+  /* #container ul li label {
+    font-size: 15px;
+  } */
 }
