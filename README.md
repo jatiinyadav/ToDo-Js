@@ -1,4 +1,4 @@
-![Screenshot (4)](https://user-images.githubusercontent.com/73248007/122652259-7b8d0280-d15b-11eb-99ca-a8b72e36389f.png)
+![Screenshot 2021-07-14 001757](https://user-images.githubusercontent.com/73248007/125508214-53540bee-5d04-4967-88d0-5e963a2a0309.png)
 
 # ToDo-Js
 A simple Todo made using JavaScript.
