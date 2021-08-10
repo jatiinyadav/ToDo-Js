@@ -19,7 +19,7 @@ body {
 
 @font-face {
   font-family: "open sans";
-  src: url(sans.ttf);
+  src: url(../assets/sans.ttf);
 }
 
 #container {
